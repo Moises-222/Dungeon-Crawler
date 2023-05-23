@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap');
+body {
+    background-image: url("menuFundoB.png");
+    background-size:cover;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 0, 0);
+}
+
+h3 {
+    font-family: 'Alkatra', cursive;
+    color: aliceblue;
+}

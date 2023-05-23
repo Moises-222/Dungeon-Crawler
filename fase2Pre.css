@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap');
+body {
+    background-image: url(fase2Pre.png);
+    background-size:cover;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(233, 222, 206);
+}
+
+h2 {
+    font-family: 'Alkatra', cursive;
+    color: aliceblue;
+}
+#fundo{
+    background-color: rgb(0, 0, 0,0.5);
+}
+.prox {
+    float: right;
+}

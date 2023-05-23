@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial</title>
+</head>
+<body>
+    <center>
+    <h1>Bem-vindo ao tutorial de Dungeon Crawler!</h1>
+      <hr>
+      <h3>Movimentação:
+        <br>
+        ● W: O jogador movimenta uma unidade para cima.
+        <br>
+        ● A: O jogador movimenta uma unidade para esquerda.
+        <br> 
+        ● S: O jogador movimenta uma unidade para baixo.
+        <br>
+        ● I: O jogador interage com o objeto que está em cima.
+        <br>
+      </h3>
+      <br>
+      <h3>Dados:
+        <br>
+        ● &: Símbolo que representa o jogador.
+        <br>
+        ● *: Símbolo que representa uma parede, o jogador ao se movimentar não pode passar
+        pela parede.
+        <br>
+        ● @: Simbolo que representa a chave para abrir a porta para finalizar a fase, a porta abre
+        no momento que o jogador interage com a chave.
+        <br>
+        ● D: Símbolo que representa a porta fechada.
+        <br>
+        ● O: Símbolo que representa um botão que o usuário pode interagir, o botão fica no chão e
+        o jogador deve ficar em cima dele para poder interagir.
+        <br>
+        ● #: Símbolo que representa um espinho. A fase é reiniciada quando o jogador toca no
+        espinho, caso a fase seja reiniciada três vezes, o jogo volta para o menu principal.
+        <br>
+        ● >: Símbolo que representa um teletransporte. O teletransporte sempre deve vir em pares,
+        quando o jogador toca em um ele é transportado para o outro e vice-versa.
+        <br>
+        ● Y: Símbolo que representa um objeto de leitura. O jogador pode interajir para ler.
+        <br>
+        ● X: O jogador interage com um portal. Ao interajir, o jogador é levado para a próxima fase.
+        <br>
+        ● I: O jogador interage com uma poção. Ao interajir, o jogador ganha o efeito da poção.
+        <br>
+      </h3>
+      <h3><a href="#" onclick="voltarMenu()"><img src="voltarB.png"></a></h3>
+    </center>
+    <script src="scriptMenu.js"></script>
+    <link rel="stylesheet" href="tutorial.css">
+</body>
+</html>

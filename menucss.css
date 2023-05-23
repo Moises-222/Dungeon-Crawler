@@ -1,0 +1,11 @@
+body {
+    background-image: url("menuFundoB.png");
+    background-size: cover;
+    height: 100vh;
+}
+#titulo img {
+    width: 300px;    
+}
+.menu img{
+    width: 100px;
+}
